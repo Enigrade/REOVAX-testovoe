@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Путинцев тестовое</title>
+  <link rel="stylesheet" href="../assets/styles/index.scss">
+  <link rel="stylesheet" href="../assets/styles/pages/main.scss">
+</head>
+<body>
+<header class="header">
+    <div class="header-info">
+      <div class="wrapper header-info__wrapper">
+        <div class="header-logo">
+          <div class="header-logo__icon">
+            <img src="../assets/img/logo.svg" alt="">
+          </div>
+          <span class="header-logo__description">
+            Ежедневно с 9:00 до 21:00
+          </span>
+        </div>
+        <div class="header-search">
+          <svg class="header-search__ico" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path stroke="#F95707" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM20.998 21l-4.35-4.35"/></svg>
+          <input type="text" class="header-search__input" placeholder="Поиск по сайту">
+        </div>
+        <a href="#" class="header__calculator">
+          Калькулятор
+        </a>
+        <div class="header-socials">
+          <a href="#" class="header-socials__item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"><path fill="#105720" d="M7.996 0a7.998 7.998 0 0 0-6.477 12.69l-1 2.972 3.078-.984a7.998 7.998 0 0 0 10.82-11.456A7.999 7.999 0 0 0 7.995 0Zm4.251 11.314-.851.852c-.896.896-3.272-.09-5.378-2.2-2.106-2.11-3.05-4.48-2.198-5.366l.852-.852a.894.894 0 0 1 1.21 0L7.138 5a.834.834 0 0 1-.314 1.388.814.814 0 0 0-.538.988c.224.94 1.434 2.106 2.332 2.33a.854.854 0 0 0 .978-.544.836.836 0 0 1 1.4-.314l1.253 1.256a.894.894 0 0 1-.002 1.21Z"/></svg>
+          </a>
+          <a href="#" class="header-socials__item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="none"><path fill="#105720" d="M.745 5.78 14.935.07c.658-.248 1.233.168 1.02 1.207l.001-.001-2.416 11.879c-.18.842-.659 1.047-1.33.65l-3.679-2.83-1.774 1.784c-.196.205-.362.378-.742.378l.261-3.908L13.095 2.8c.297-.273-.066-.426-.458-.155L4.211 8.182.578 7c-.788-.262-.806-.823.167-1.22Z"/></svg>
+          </a>
+          <a href="#" class="header-socials__item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" fill="none"><path fill="#105720" d="M9.778 0H6.222c-1.65 0-3.233.664-4.4 1.845A6.34 6.34 0 0 0 0 6.3V9c0 1.193.333 2.362.963 3.37a6.248 6.248 0 0 0 2.593 2.326v3.008a.304.304 0 0 0 .183.273.294.294 0 0 0 .321-.061L6.642 15.3h3.136c1.65 0 3.233-.664 4.4-1.845A6.34 6.34 0 0 0 16 9V6.3a6.341 6.341 0 0 0-1.822-4.456A6.184 6.184 0 0 0 9.778 0Zm2.329 11.809-.89.9c-.946.938-3.417-.133-5.595-2.385C3.444 8.07 2.49 5.544 3.4 4.606l.889-.9a.929.929 0 0 1 1.264.013l1.298 1.35a.887.887 0 0 1 .22.828.888.888 0 0 1-.575.628.851.851 0 0 0-.492.402.87.87 0 0 0-.082.633c.222 1 1.476 2.25 2.41 2.496.21.05.431.022.622-.08a.897.897 0 0 0 .415-.478.883.883 0 0 1 .64-.572.86.86 0 0 1 .815.257l1.296 1.35a.952.952 0 0 1-.013 1.276ZM8.809 4.275c-.088 0-.177.005-.265.016a.293.293 0 0 1-.291-.154.303.303 0 0 1 .117-.407.294.294 0 0 1 .11-.035 2.948 2.948 0 0 1 2.426.86 3.023 3.023 0 0 1 .854 2.454.302.302 0 0 1-.211.255.293.293 0 0 1-.314-.1.3.3 0 0 1-.064-.22 2.42 2.42 0 0 0-.683-1.967 2.36 2.36 0 0 0-1.68-.702Zm1.778 2.401a.303.303 0 0 1-.096.196.296.296 0 0 1-.498-.196c0-.318-.124-.623-.347-.848a1.177 1.177 0 0 0-.837-.351.294.294 0 0 1-.298-.18.305.305 0 0 1 .176-.406.295.295 0 0 1 .122-.015c.471 0 .924.19 1.257.527.333.338.52.796.52 1.273Zm2.26.974a.304.304 0 0 1-.242.249.294.294 0 0 1-.311-.149.303.303 0 0 1-.025-.24 3.623 3.623 0 0 0-.946-3.376A3.533 3.533 0 0 0 8.809 3.08h-.276a.293.293 0 0 1-.215-.071.301.301 0 0 1 .17-.527 4.13 4.13 0 0 1 3.254 1.221 4.235 4.235 0 0 1 1.216 2.973c0 .328-.037.655-.111.974Z"/></svg>
+          </a>
+        </div>
+        <div class="header-contacts">
+          <a href="tel:+78129268833" class="header-contacts__phone">+7 (812) 926-88-33</a>
+          <a href="mailto:info@eco-lom.ru" class="header-contacts__email">info@eco-lom.ru</a>
+        </div>
+        <button class="header__recall">
+          Перезвоните мне
+        </button>
+      </div>
+    </div>
+    <nav class="header-nav">
+      <div class="wrapper header-nav__wrapper">
+        <a href="#" class="header-nav__item">Лотерея</a>
+        <a href="#" class="header-nav__item">Металлолом</a>
+        <a href="#" class="header-nav__item">Услуги</a>
+        <a href="#" class="header-nav__item">Цены</a>
+        <a href="#" class="header-nav__item">Пункты приёма</a>
+        <a href="#" class="header-nav__item">О компании</a>
+        <a href="#" class="header-nav__item">Контакты</a>
+      </div>
+    </nav>
+</header>
+<main>
+  <section class="banner">
+    <div class="wrapper banner__wrapper">
+      <div class="banner__content">
+        <div class="banner__header">
+          <h1 class="banner__title">
+            Приём лома чёрных
+            и&nbsp;цветных металлов
+            <span class="banner__title--green">в&nbsp;Санкт-Петербурге</span>
+          </h1>
+          <button class="banner__video">
+            <img src="../assets/img/baner-video.svg" alt="">
+          </button>
+        </div>
+        <div class="banner__tags">
+          <a href="#" class="banner__tag">
+            Цены на сегодня
+          </a>
+          <a href="#" class="banner__tag">
+            Как сдать металл
+          </a>
+          <a href="#" class="banner__tag">
+            Отзывы
+          </a>
+          <a href="#" class="banner__tag">
+            Акции
+          </a>
+        </div>
+        <button class="banner__order">
+          Оставить заявку
+        </button>
+      </div>
+      <img src="../assets/img/truck.png" alt="" class="banner__image">
+    </div>
+  </section>
+  <section class="offers">
+    <div class="wrapper offers__wrapper">
+      <div class="offer">
+        <div class="offer__header">
+          <svg class="offer__ico" xmlns="http://www.w3.org/2000/svg" width="52" height="52" fill="none"><circle cx="26" cy="26" r="26" fill="#105720"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M35 18H17a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V20a2 2 0 0 0-2-2ZM15 24h22"/></svg>
+          <div class="offer__title">
+            Моментальный расчёт
+          </div>
+        </div>
+        <div class="offer__description">
+          Мгновенная оплата по безналичному
+          расчету на месте приёма
+        </div>
+      </div>
+      <div class="offer">
+        <div class="offer__header">
+          <svg class="offer__ico" xmlns="http://www.w3.org/2000/svg" width="52" height="52" fill="none"><circle cx="26" cy="26" r="26" fill="#105720"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m37 20-9.5 9.5-5-5L15 32"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M31 20h6v6"/></svg>
+          <div class="offer__title">
+            Высокая цена закупки
+          </div>
+        </div>
+        <div class="offer__description">
+          Максимальная высокая цена закупки лома
+          на рынке Санкт-Петербурга
+        </div>
+      </div>
+      <div class="offer">
+        <div class="offer__header">
+          <svg class="offer__ico" xmlns="http://www.w3.org/2000/svg" width="52" height="52" fill="none"><circle cx="26" cy="26" r="26" fill="#105720"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M30 17H15v13h15V17ZM30 22h4l3 3v5h-7v-8ZM19.5 35a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM32.5 35a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/></svg>
+          <div class="offer__title">
+            Собственный автопарк
+          </div>
+        </div>
+        <div class="offer__description">
+          Свой автопарк, в составе которого
+          более 30 единиц спецтехники
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="complex">
+    <div class="wrapper complex__wrapper">
+      <h2 class="complex__title">
+        Комплексный
+        сервис
+      </h2>
+      <div class="complex__description">
+        <p>
+          Компания «ЭКОЛОМ» — ваш надежный партнер по переработке металлолома
+          в Санкт-Петербурге. Мы стремимся к экологической ответственности, предлагая выгодные условия и профессиональный сервис на всех этапах работы. Гарантируем честность, прозрачность и высокие цены на металлолом!
+        </p>
+        <p>
+          Помимо переработки лома, наша компания предлагает комплексные услуги, включая оценку состава металлов, вывоз и демонтаж. Мы осуществляем демонтаж любой сложности –
+          от кораблей и зданий до железнодорожных составов и путей. Наши опытные специалисты
+          и собственный автопарк обеспечивают оперативность и надежность в выполнении задач.
+        </p>
+        <p>
+          Вместе с компанией «ЭКОЛОМ» вы получаете не только надежного партнера по переработке металлолома, но и комплексный сервис высочайшего уровня. Мы с удовольствием берем
+          на себя все этапы работы — от приёмки до вывоза и демонтажа.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+</body>
+<script type="module" src="../assets/js/index.js"></script>
+<script type="module" src="../assets/js/pages/main.js"></script>
+</html>
